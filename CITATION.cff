@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: |
+  If you use this literature database in your own research, please cite the
+  survey paper once it is published. Until then, you may cite the database
+  itself using the metadata below.
+title: "Survey: High-Level Semantic Driven Virtual Human Crowd Simulation"
+type: dataset
+keywords:
+  - crowd simulation
+  - virtual humans
+  - multi-agent systems
+  - large language models
+  - generative AI
+  - semantic scene understanding
+  - procedural population generation
+  - behavior generation
+  - agent-based simulation
+license: MIT
+date-released: 2026-09-30
+url: "https://github.com/<OWNER>/Survey_LLM-Crowds"
+repository-code: "https://github.com/<OWNER>/Survey_LLM-Crowds"
+contact:
+  - name: Survey Lead
+    email: REPLACE_ME@example.com
+authors:
+  - family-names: Team
+    given-names: Survey
+    affiliation: REPLACE_ME
+notes: |
+  Replace <OWNER>, REPLACE_ME, and the contact email with real values before
+  the first public release.

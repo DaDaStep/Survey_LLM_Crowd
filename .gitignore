@@ -1,0 +1,106 @@
+# ------------------------------------------------------------------
+# OS / editor noise
+# ------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# VS Code (keep settings.json tracked; only ignore the workspace cache)
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+
+# JetBrains / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Vim / Emacs
+*.swp
+*~
+.\#*
+\#*\#
+.\#*
+
+# ------------------------------------------------------------------
+# Build / dependency / venv
+# ------------------------------------------------------------------
+node_modules/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.tox/
+
+# ------------------------------------------------------------------
+# Secrets / local config — never commit
+# ------------------------------------------------------------------
+.env
+.env.*
+*.local
+*.secret
+secrets.yaml
+config.local.*
+
+# ------------------------------------------------------------------
+# Documents / writing artefacts that should not be tracked
+# ------------------------------------------------------------------
+*.pdf.bak
+*.docx#
+~$*.docx
+~$*.xlsx
+*.tmp
+*.bak
+*.swp
+
+# Generated references
+*.blg
+*.bbl
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.toc
+*.run.xml
+*.bcf
+*.lol
+*.lot
+*.lof
+
+# Zotero / Mendeley local databases
+*.bib.sav
+zotero.sqlite
+zotero.sqlite-journal
+
+# ------------------------------------------------------------------
+# Large binary data — discuss before tracking
+# ------------------------------------------------------------------
+*.zip
+*.tar.gz
+*.rar
+*.7z
+datasets/
+checkpoints/
+*.pkl
+*.pth
+*.pt
+*.h5
+*.hdf5
+
+# ------------------------------------------------------------------
+# Project-local scratch
+# ------------------------------------------------------------------
+drafts/scratch/
+scratch/
+TODO.local.md
